@@ -53,3 +53,24 @@ function validateForm() {
     }, 2000); 
 }
 }
+
+
+function downloadResume() {
+    // Create a link element
+    var downloadLink = document.createElement('a');
+    
+    // Set the href attribute to the path of your resume file
+    downloadLink.href = 'path/to/your/resume.pdf';
+    
+    // Set the download attribute to specify the file name
+    downloadLink.download = 'YourResume.pdf';
+    
+    // Append the link to the body
+    document.body.appendChild(downloadLink);
+    
+    // Trigger a click event on the link
+    downloadLink.click();
+    
+    // Clean up
+    document.body.removeChild(downloadLink);
+}

@@ -49,6 +49,19 @@
       margin-top:40px;
       margin-left:70px;
   }
+  .buttoncontainer{
+    text-align:center;
+  }
+  .resumebutton{
+    margin:auto;
+    text-align:center;
+    color: white;
+    background-color: #d0b200;
+    width: 160px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+  }
   
   .educationcontainer{
       background-color:rgb(212, 206, 206);
@@ -65,7 +78,7 @@
       color:blueviolet;
       font-size:28px;
       text-align:center;
-      font-weight:500;
+      font-weight:bold;
   }
   
   .projectheading{
